@@ -1,0 +1,21 @@
+p {
+    background: red;
+    padding: 8px;
+    border: 2px blue solid;
+}
+
+div {
+    height: 100vh;
+    background: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (min-width: 1024px) {
+    div {
+        flex-direction: row;
+    }
+}
