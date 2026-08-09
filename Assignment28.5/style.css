@@ -1,0 +1,35 @@
+.sidebar {
+    background-color: green;
+    color: white;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: fixed;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    top: 0;
+    bottom: 0;
+}
+
+.sidebar>p,h1 {
+    font-size: 35px;
+}
+
+.content {
+    background-color: yellow;
+    display: flex;
+    position: relative;
+    left: 0;
+    flex-direction: column;
+    gap: 60px;
+    padding: 60px;
+    margin-left: 200px;
+}
+
+.content p {
+    margin-top: 20px;
+    font-size: 20px;
+}
